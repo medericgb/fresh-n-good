@@ -25,7 +25,6 @@ function Recipe() {
     const res = await fetch(recipesReq);
     const data = await res.json();
     setRecipes(data.hits);
-    console.log(data.hits);
   };
 
   return (
@@ -34,6 +33,7 @@ function Recipe() {
       <form onSubmit={getSearch}>
         <input
           type="text"
+          placeholder="Eg. Chicken, Peanut, ..."
           value={search}
           onChange={handleSearch}
           className="search-bar"

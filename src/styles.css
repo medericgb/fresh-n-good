@@ -2,3 +2,44 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.Nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.Nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.Home h2 {
+  color: lightgreen;
+  font-size: 32px;
+}
+
+.Home p {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.Recipe h3 {
+  color: lightgreen;
+  font-size: 32px;
+}
+
+.Recipe input[type="text"] {
+  width: 40%;
+  padding: 12px;
+  border: 2px solid #4CAF50;
+}
+
+.Recipe .search-button {
+  background-color: lightgreen;
+  height: 40px;
+  width: 10%;
+  margin-left: 10px;
+  border: 2px solid #4CAF50;
+}
