@@ -11,7 +11,9 @@ function Nav() {
         <Link to="/recipe">
           <li>Recipe</li>
         </Link>
-        <li><a href="https://www.twitter.com/MMedericjoel">Mederic Joel</a></li>
+        <li>
+          <a href="https://twitter.com/MMedericjoel">Par Mederic Joel</a>
+        </li>
       </ul>
     </div>
   );
